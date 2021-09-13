@@ -17,6 +17,9 @@
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 dijkstra <- function (graph, init_node) {
 
+  stopifnot(colnames(graph) %in% c("v1","v2","w"))
+  stopifnot(init_node %in% graph$v1)
+
   #All the points
   v1 <- unique(graph$v1)
 
@@ -87,6 +90,6 @@ dijkstra <- function (graph, init_node) {
     if(length(unique(working_graph$state)) == 1) break
 
   }
-  final_result <- working_graph[, c("v1", "cost")]
+  final_result <- working_graph$cost
   return(final_result)
 }

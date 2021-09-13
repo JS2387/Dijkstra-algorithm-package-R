@@ -16,6 +16,8 @@
 #'
 #' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 euclidean <- function (x,y) {
+  x <- abs(x)
+  y <- abs(y)
   gcd <- 1
   if (is.integer(x) == TRUE || is.integer(y) == TRUE) stop ("invalid input")
   for (i in 1:min(x,y)) {
