@@ -3,3 +3,4 @@
 export(dijkstra)
 export(euclidean)
 importFrom(dplyr,'%>%')
+importFrom(dplyr,mutate)

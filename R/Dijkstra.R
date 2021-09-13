@@ -10,7 +10,7 @@
 #' @examples
 #' dijkstra(wiki_graph, 2)
 #'
-#' @importFrom dplyr '%>%'
+#' @importFrom dplyr '%>%' mutate
 #'
 #' @export dijkstra
 #'
