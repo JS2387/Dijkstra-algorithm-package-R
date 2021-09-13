@@ -12,6 +12,8 @@
 #' euclidean(x=10, y=100)
 #' result_var <- euclidean(10,100)
 #'
+#' @export euclidean
+#'
 #' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 euclidean <- function (x,y) {
   gcd <- 1

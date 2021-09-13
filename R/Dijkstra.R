@@ -10,6 +10,8 @@
 #' @examples
 #' dijksrta(wiki_graph, 2)
 #'
+#' @export dijkstra
+#'
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 dijkstra <- function (graph, init_node) {
 
