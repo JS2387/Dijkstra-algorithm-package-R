@@ -11,6 +11,8 @@
 #' euclidean(10, 100)
 #' euclidean(x=10, y=100)
 #' result_var <- euclidean(10,100)
+#'
+#' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 euclidean <- function (x,y) {
   gcd <- 1
   if (is.integer(x) == TRUE || is.integer(y) == TRUE) stop ("invalid input")
