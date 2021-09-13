@@ -8,7 +8,9 @@
 #' @return A resultant \code{data.frame} with the lowest computed cost for each vertex from the starting node
 #'
 #' @examples
-#' dijksrta(wiki_graph, 2)
+#' dijkstra(wiki_graph, 2)
+#'
+#' @importFrom dplyr '%>%'
 #'
 #' @export dijkstra
 #'

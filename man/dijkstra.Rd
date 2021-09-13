@@ -18,7 +18,7 @@ A resultant \code{data.frame} with the lowest computed cost for each vertex from
 Provides the most efficient path along all the edges of a graph
 }
 \examples{
-dijksrta(wiki_graph, 2)
+dijkstra(wiki_graph, 2)
 
 }
 \references{
