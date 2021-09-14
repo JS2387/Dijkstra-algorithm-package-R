@@ -1,2 +1,2 @@
 language: r
-ccache: packages
+cache: packages
