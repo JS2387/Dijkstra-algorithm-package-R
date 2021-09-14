@@ -1,6 +1,3 @@
 language: r
-r:
-  - old rel
-  - release
-  - devel
 cache: packages
+warnings_are_errors: false
