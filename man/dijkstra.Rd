@@ -9,7 +9,7 @@ dijkstra(graph, init_node)
 \arguments{
 \item{graph}{\code{data.frame} with 3 columns v1, v2 & w}
 
-\item{y}{integer value that should be a valid vertex in the graph}
+\item{init_node}{\code{integer} value that should be a valid vertex in the graph}
 }
 \value{
 A resultant \code{data.frame} with the lowest computed cost for each vertex from the starting node

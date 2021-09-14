@@ -3,7 +3,7 @@
 #' @description Provides the most efficient path along all the edges of a graph
 #'
 #' @param graph \code{data.frame} with 3 columns v1, v2 & w
-#' @param y integer value that should be a valid vertex in the graph
+#' @param init_node \code{integer} value that should be a valid vertex in the graph
 #'
 #' @return A resultant \code{data.frame} with the lowest computed cost for each vertex from the starting node
 #'
